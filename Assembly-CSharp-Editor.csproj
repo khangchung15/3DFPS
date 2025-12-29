@@ -1056,12 +1056,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.InputSystem.ForUI">
-      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
