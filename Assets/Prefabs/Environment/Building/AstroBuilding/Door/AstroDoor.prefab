@@ -372,6 +372,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4461887896184949456}
+  - component: {fileID: 3883751670304740507}
   m_Layer: 7
   m_Name: Door
   m_TagString: Untagged
@@ -399,6 +400,25 @@ Transform:
   - {fileID: 8255226197247938521}
   m_Father: {fileID: 325096464582653841}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3883751670304740507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673505863938504185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &865629061596584390
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,6 +916,7 @@ GameObject:
   - component: {fileID: 6531905759122359366}
   - component: {fileID: 4753634403104979564}
   - component: {fileID: 1796840961}
+  - component: {fileID: 6232255855035879238}
   m_Layer: 7
   m_Name: Door_Slide
   m_TagString: Untagged
@@ -1005,6 +1026,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   opaqueMaterials: []
   transparentMaterials: []
+--- !u!208 &6232255855035879238
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583511703198554597}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 10.861, y: 157.444, z: 35.006}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 6.814, z: 35.006}
+  m_TimeToStationary: 0.5
 --- !u!1 &2384913652923892132
 GameObject:
   m_ObjectHideFlags: 0
@@ -3102,6 +3139,7 @@ GameObject:
   - component: {fileID: 3578681391509162732}
   - component: {fileID: 4753634403277349573}
   - component: {fileID: 2026895229}
+  - component: {fileID: 4603067070524774071}
   m_Layer: 7
   m_Name: Door_Slide_A
   m_TagString: Untagged
@@ -3212,6 +3250,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   opaqueMaterials: []
   transparentMaterials: []
+--- !u!208 &4603067070524774071
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5457874615521768384}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 25.206001, y: 157.647, z: 68.334}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: -2.1890001, z: -68.334}
+  m_TimeToStationary: 0.5
 --- !u!1 &5724381381117379372
 GameObject:
   m_ObjectHideFlags: 0
