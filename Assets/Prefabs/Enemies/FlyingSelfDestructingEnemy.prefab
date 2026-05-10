@@ -141,7 +141,7 @@ MonoBehaviour:
   lineOfSightToAttack: 0
   lineOfSightHitLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 384
   actionState: 0
   attackEffect: {fileID: 0}
   animator: {fileID: 1628396400489302391}
