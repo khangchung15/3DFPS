@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "3DFPS.sln"
+    "dotnet.defaultSolution": "3DFPS.slnx"
 }
